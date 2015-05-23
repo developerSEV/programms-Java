@@ -41,6 +41,7 @@ public class Form1 extends JFrame
 			
 		b1.addActionListener(hendler);
 		
+		
 		scrollPane = new JScrollPane();
 		scrollPane.setBounds(10, 96, 414, 249);
 		getContentPane().add(scrollPane);
