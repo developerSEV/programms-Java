@@ -1,7 +1,5 @@
 package kz.sev.GUISwing2;
 
-import javax.swing.JFrame;
-
 public class Main 
 {
 
