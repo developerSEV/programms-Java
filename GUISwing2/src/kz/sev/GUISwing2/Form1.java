@@ -82,7 +82,7 @@ public class Form1 extends JFrame
 			
 			if(e.getSource() == b1)
 			{
-			   Click_b1(table);
+			   Click_b1();
 			}
 			
 			
@@ -91,7 +91,7 @@ public class Form1 extends JFrame
 	}
 	
 	
-	private void Click_b1(JTable t)
+	private void Click_b1()
 	{
 		int c = 0;
 		int r = 0;
@@ -99,7 +99,7 @@ public class Form1 extends JFrame
 		int[][] mas = {{1,2,3},{3,2,1},{2,1,3}};
 		
 		DefaultTableModel dtm = new DefaultTableModel();
-		dtm = (DefaultTableModel)t.getModel();
+		dtm = (DefaultTableModel)table.getModel();
 		
 		for(r = 0; r < mas.length; r++)
 		{	
