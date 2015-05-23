@@ -16,10 +16,11 @@ import javax.swing.table.TableModel;
 
 public class Form1 extends JFrame
 {
+	private static final long serialVersionUID = 1L;
 	private JTextField t1;
-	JButton b1;
-	JTable table;
-	JScrollPane scrollPane;
+	private JButton b1;
+	private JTable table;
+	private JScrollPane scrollPane;
 	
 	eHandler hendler = new eHandler();
 
