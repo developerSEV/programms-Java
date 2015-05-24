@@ -101,6 +101,7 @@ public class Form1 extends JFrame
 		
 		DefaultTableModel dtm = new DefaultTableModel();
 		dtm = (DefaultTableModel)table.getModel();
+		dtm.setRowCount(0);
 		
 		for(r = 0; r < mas.length; r++)
 		{	
