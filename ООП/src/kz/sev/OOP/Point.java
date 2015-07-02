@@ -1,6 +1,6 @@
 package kz.sev.OOP;
 
-public class Point 
+public class Point implements iPointCircle 
 {
 	private double x,y;
 	
@@ -21,11 +21,13 @@ public class Point
 		this.y = y;
 	}
 	
+	@Override
 	public double getX()
 	{
 		return x;
 	}
 	
+	@Override
 	public double getY()
 	{
 		return y;
